@@ -13,5 +13,5 @@ AI guesses number
 Asks for UI
  - UI can either be too high, too low, or correct
 
-AI guesses number
+AI guesses more numbers, use loop until UI = 3
  - use binary search, guess mid point
