@@ -1,0 +1,17 @@
+Rules:
+Secret number ranges from 1-100 (inclusive)
+AI needs to find it using fewest guesses possible
+
+Structure:
+Secret number given to user
+ - random integer between 1-100
+
+AI guesses number
+ - random integer between 1-100
+ - increments total guesses
+
+Asks for UI
+ - UI can either be too high, too low, or correct
+
+AI guesses number
+ - use binary search, guess mid point
