@@ -4,7 +4,7 @@ print(f"This is your random number: {random.randint(1,100)}\n")
 
 min=1
 max=100
-
+guesses=1
 AIguess= random.randint(min,max)
 print(f"Is your number {AIguess}?")
 
@@ -19,5 +19,6 @@ while True:
         print("Guess successful")
         break
 
+    guesses +=1
     AIguess=(min+max)//2
     print(f"Is your number {AIguess}\n")
